@@ -1,0 +1,36 @@
+#这个文件是为了配置git提交时一些没必要的文件的ignore
+
+*.class
+
+#package file
+#一般还有*.jar但是本项目当中支付宝的jar需要提交
+*.war
+*.ear
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file 临时文件
+*.log
+*.cache
+*.diff
+*.patch
+*.tem
+
+#system ignore
+.DS_Store
+Thumbs.db
